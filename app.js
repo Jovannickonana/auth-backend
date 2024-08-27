@@ -4,7 +4,7 @@ const cloudinary = require("cloudinary").v2;
 const bodyParser = require('body-parser');
 require('dotenv').config()
 const jwt = require("jsonwebtoken");
-const bcrypt = require("bcrypt");
+const bcrypt = require('bcryptjs');
 const User = require("./db/userModel");
 const auth = require("./auth");
 
