@@ -168,10 +168,6 @@ app.get("/free-endpoint", (request, response) => {
   response.json({ message: "You are free to access me anytime" });
 });
 
-// authentication endpoint
-app.get("/auth-endpoint", (request, response) => {
-  response.json({ message: "You are authorized to access me" });
-});
 
 
 // authentication endpoint
